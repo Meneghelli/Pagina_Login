@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Righteous&family=Roboto:wght@500&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  background: rgb(226, 218, 218);
+  background-size: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+
+h2 {
+  font-family: righteous, sans-serif;
+  font-size: 100px;
+  margin: 20px;
+  color: white;
+  margin: 20px;
+}
+
+.container {
+  background: cornflowerblue;
+  height: 550px;
+  width: 700px;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  }
+
+.input-field {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-family: sarala, sans-serif;
+  color: white;
+  transform: translateY(30px);
+}
+
+button {
+  width: 180px;
+  height: 65px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: righteous, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  background: rgb(145, 141, 141);
+}
+
+a {
+  font-family: sarala;
+}
+
